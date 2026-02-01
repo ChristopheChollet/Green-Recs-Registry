@@ -9,7 +9,6 @@ Objectif: emettre, retirer, et visualiser l'impact via une page "Impact".
 - `frontend/` : Next.js (pages Home + Impact)
 
 ## Lancer en local (pas a pas)
-## Lancer en local (pas a pas)
 
 ### 1) Backend : node + deploy
 ```bash
@@ -67,10 +66,3 @@ Ajoute tes captures ici :
 | --- | --- |
 | Accueil | ![Accueil](docs/screenshots/Accueil.png) |
 | Impact | ![Impact](docs/screenshots/Impact.png) |
-
-## Deploiement (Vercel)
-Le frontend utilise une adresse de contrat locale. Pour une demo publique,
-il faut deployer le contrat sur un reseau public (ex: Sepolia) et remplacer
-`frontend/src/constants/addresses.ts`.
-
-Sur Vercel, selectionne le dossier `frontend` (framework Next.js) et deploie.
