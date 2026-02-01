@@ -1,0 +1,30 @@
+(await registry2.queryFilter(registry2.filters.Retired(), 0, "latest")).length
+(await registry2.queryFilter(registry2.filters.Issued(), 0, "latest")).length
+await registry2.connect(user).retire(1n, 120n, "offset");
+await registry2.issue(user.address, 2n, 300n, "ipfs://rec-002.json");
+await registry2.issue(user.address, 1n, 500n, "ipfs://rec-001.json");
+const [owner, user] = await ethers.getSigners();
+);
+  "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  "GreenRecsRegistry",
+const registry2 = await ethers.getContractAt(
+(await registry.queryFilter(registry.filters.Retired(), 0, "latest")).length
+(await registry.queryFilter(registry.filters.Issued(), 0, "latest")).length
+await registry.connect(user).retire(1n, 120n, "offset");
+await registry.issue(user.address, 2n, 300n, "ipfs://rec-002.json");
+await registry.issue(user.address, 1n, 500n, "ipfs://rec-001.json");
+const [owner, user] = await ethers.getSigners();
+);
+  "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  "GreenRecsRegistry",
+const registry = await ethers.getContractAt(
+(await registry.queryFilter(registry.filters.Retired(), 0, "latest")).length
+(await registry.queryFilter(registry.filters.Issued(), 0, "latest")).length
+await registry.connect(user).retire(1n, 120n, "offset");
+await registry.issue(user.address, 2n, 300n, "ipfs://rec-002.json");
+await registry.issue(user.address, 1n, 500n, "ipfs://rec-001.json");
+const [owner, user] = await ethers.getSigners();
+const registry = await ethers.getContractAt("GreenRecsRegistry","0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const { ethers } = await network.connect();
+await registry.uri(1n)
+await registry.balanceOf("0x70997970C51812dc3A010C7d01b50e0d17dc79C8", 1n)
